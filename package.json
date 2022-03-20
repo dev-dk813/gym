@@ -1,0 +1,23 @@
+{
+  "name": "codewithdkay",
+  "version": "1.0.0",
+  "description": "The package created while studying Nodejs & Express.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "app"
+  ],
+  "author": "Dev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.6",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
