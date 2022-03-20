@@ -4,7 +4,7 @@ const fs = require("fs");
 const app = express();
 const mongoose = require('mongoose');
 const bodyparser = require("body-parser");
-const port = 80;
+const port = process.env.PORT || 5000
 
 mongoose.connect('mongodb://localhost/gym', {useNewUrlParser: true, useUnifiedTopology: true});
 
